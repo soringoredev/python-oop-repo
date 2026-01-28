@@ -1,6 +1,6 @@
 # OOP Practice
 
-Short one-line description.
+An repo with exercices based on OOP - using Python programming language.
 
 ## Requirements
 - Python 3.10+ (or your version)

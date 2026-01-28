@@ -7,10 +7,13 @@ class Car:
             print(f"The {self.color} {self.brand} is starting!")
 
 
-car1 = Car(brand='Toyota', color='red')
-car2 = Car(brand='Honda', color='blue')
+car1 = Car('Toyota', 'red')
+car2 = Car('Honda','blue')
+car3 = Car('Ford','green')
 
+print(car3.color)  # green
 
-print(car1.brand)
-print(car2.color)
-car1.start_engine()
+parking_lot = [car1, car2, car3]
+
+for car in parking_lot:
+    car.start_engine()

@@ -1,4 +1,4 @@
-# Project Name
+# OOP Practice
 
 Short one-line description.
 
